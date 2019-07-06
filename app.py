@@ -1,10 +1,6 @@
 # app.py for Takumi CHCH
 
 from flask import Flask, render_template, request, redirect, session
-import mysql.connector
-import datetime
-from datetime import datetime as DateTime, timedelta as TimeDelta
-from datetime import timedelta
 
 #configure db
 ##mydb = mysql.connector.connect(
