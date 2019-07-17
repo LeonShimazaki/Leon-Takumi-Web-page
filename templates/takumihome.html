@@ -45,21 +45,21 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="C:\Users\Leon\Documents\GitHub\Leon-Takumi-Web-page\images\Takumibanner.jpg" style="width:100%">
+    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner.jpg')}}" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Takumi</h3>
       <p><b>We are one!</b></p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="C:\Users\Leon\Documents\GitHub\Leon-Takumi-Web-page\images\Takumibanner2.jpg" style="width:100%">
+    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner2.jpg')}}" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Japan Day 2014</h3>
       <p><b>The atmosphere at Japan Day is intense.</b></p>    
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="C:\Users\Leon\Documents\GitHub\Leon-Takumi-Web-page\images\Takumibanner3.jpg" style="width:100%">
+    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner3.jpg')}}" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>10th Anniversary 2017</h3>
       <p><b>Thank you, Everyone - A night we won't forget.</b></p>    
@@ -75,16 +75,16 @@ body {font-family: "Lato", sans-serif}
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Chie O'keef</p>
+        <img class="AUTO1" src="{{url_for('static', filename='chie.jpg')}}" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Leon</p>
+        <img class="AUTO1" src="{{url_for('static', filename='Leon.jpg')}}" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        <p>Reiko</p>
+        <img src="{{url_for('static', filename='Reiko.jpg')}}" class="w3-round" alt="Random Name" style="width:60%">
       </div>
     </div>
   </div>
