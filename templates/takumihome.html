@@ -16,9 +16,9 @@ body {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">TAKUMI HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PERFORMANCES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
@@ -45,87 +45,112 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner.jpg')}}" style="width:100%">
+    <img class="AUTO1" src="{{url_for('static', filename='Takumilogo.png')}}" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Takumi</h3>
-      <p><b>We are one!</b></p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner2.jpg')}}" style="width:100%">
+    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner.jpg')}}" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Japan Day 2014</h3>
       <p><b>The atmosphere at Japan Day is intense.</b></p>    
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img class="AUTO1" src="{{url_for('static', filename='Takumibanner3.jpg')}}" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>10th Anniversary 2017</h3>
-      <p><b>Thank you, Everyone - A night we won't forget.</b></p>    
-    </div>
-  </div>
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">THE BAND</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <h2 class="w3-wide">TAKUMI JAPANESE DRUMMING GROUP</h2>
+    <p class="w3-opacity"><i>About Us</i></p>
+    <p class="w3-justify">
+    <div> Started in 2008
+    </div>
+
+    <div>MORE INFO
+    Home Town: Christchurch, New Zealand
+    </div>
+    <div>About
+    Japanese taiko group TAKUMI is a Christchurch formed entertainment group performing at functions/schools and cultural events hoping to spread Japanese culture through heart pounding beats and stunning visual performance
+    </div>
+    <div>Biography
+    TAKUMI formed in 2008, by Mr. Tomo Mameno. Formerly the principal of Japanese Supplementary School of Christchurch Canterbury. Wishing for the Japanese Society to
+    "spread the uniqueness, the power and beauty that Japanese traditional music holds"
+    Starting with only a few members, we have now expanded to a group of roughly 50 members. As the years went by, local schools and associations started to contact us and offered us numerous opportunities to perform regularly.
+    We have had the privilege to perform several times at the annual Santa Parade held every Summer, Culture Galore of CPIT, Christmas in the Park 2012, Community events held across the city and several schools from Primary to High Schools.
+    We must thank all those who have attended our concerts so far and to those who have enjoyed our performance, thank you for your support! We will strive to develop ourselves individually, but also as a performance group interacting with the community to spread out culture and hopefully spread some extra spice into the music events of Christchurch.
+    Arigato gozaimasu! Thank you! </div>
+    </p>
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p>Chie O'keef</p>
+        <p>
+        <div><b>Chie O'keef</b></div>
+        <div>Founding member</div>
+        </p>
         <img class="AUTO1" src="{{url_for('static', filename='chie.jpg')}}" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
-        <p>Leon</p>
-        <img class="AUTO1" src="{{url_for('static', filename='Leon.jpg')}}" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Reiko</p>
+         <p>
+        <div><b>Reiko Miyazawa</b></div>
+        <div>Founder of Takumi Japanese Drumming group</div>
+        </p>
         <img src="{{url_for('static', filename='Reiko.jpg')}}" class="w3-round" alt="Random Name" style="width:60%">
       </div>
+      <div class="w3-third">
+        <p>
+        <div><b>Leon Shimazaki</b></div>
+        <div>5th year member</div>
+        </p>
+        <img class="AUTO1" src="{{url_for('static', filename='Leon.jpg')}}" alt="Random Name" style="width:60%">
+      </div>
+
     </div>
   </div>
 
   <!-- The Tour Section -->
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">TOUR DATES</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+      <h2 class="w3-wide w3-center">Upcoming Performances</h2>
+      <p class="w3-opacity w3-center"><i>Find a date that suits you!</i></p><br>
 
       <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        <li class="w3-padding">January <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">February <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">March <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        <li class="w3-padding">April <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">May <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">June <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        <li class="w3-padding">July <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">August <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">September <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">November <span class="w3-tag w3-red w3-margin-left">1</span></li>
+        <li class="w3-padding">December <span class="w3-badge w3-right w3-margin-right">3</span></li>
       </ul>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <img src="{{url_for('static', filename='Takumibanner2.jpg')}}" alt="New York" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p><b>Christchurch</b></p>
+            <p class="w3-opacity">Sat 10 August 2019</p>
+            <p>TAKUMI CONCERT 2019.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <img src="{{url_for('static', filename='Takumibanner2.jpg')}}" alt="Paris" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p><b>Christchurch</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2019</p>
+            <p>TAKUMI performance 2019.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <img src="{{url_for('static', filename='Takumibanner2.jpg')}}" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p><b>Christchurch</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2019</p>
+            <p>TAKUMI performance 2019.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
@@ -142,7 +167,7 @@ body {font-family: "Lato", sans-serif}
         <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
       </header>
       <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $20 per person</label></p>
         <input class="w3-input w3-border" type="text" placeholder="How many?">
         <p><label><i class="fa fa-user"></i> Send To</label></p>
         <input class="w3-input w3-border" type="text" placeholder="Enter email">
@@ -159,9 +184,10 @@ body {font-family: "Lato", sans-serif}
     <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Christchurch, New Zealand<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +64 022 123 4567<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: cjdg_takumi@live.jp<br>
+        <i class="fa fa-facebook" style="width:30px"> </i> Takumi Japanese Drumming Group 巧<br>
       </div>
       <div class="w3-col m6">
         <form action="/action_page.php" target="_blank">
@@ -184,7 +210,7 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<img src="{{url_for('static', filename='map.png')}}" class="w3-image w3-greyscale-min" style="width:100%">
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
@@ -211,7 +237,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
+  setTimeout(carousel, 5000);
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
